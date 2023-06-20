@@ -1,12 +1,26 @@
 {
-    "name": "foodmine-course",
-    "version": "1.0.0",
-    "engines": {
-        "node": ">=18 <19"
-    },
-    "scripts": {
-        "start": "cd backend/built && node server.js",
-        "prebuild": "cd backend && npm run build",
-        "build": "cd frontend && npm run build"
-    }
+  "name": "foodmine-course",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18 <19"
+  },
+  "scripts": {
+    "start": "cd backend/built && node server.js",
+    "prebuild": "cd backend && npm run build",
+    "build": "cd frontend && npm run build"
+  },
+  "description": "1. Introduciton to the course\r 2. Install development tools\r 3. Create Angular App\r    1. Create project's folder\r    2. Install @angular/cli\r    3. Create App as frontend",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
 }
